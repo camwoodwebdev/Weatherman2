@@ -1,0 +1,269 @@
+.container2 {
+  border-width: 5px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  border-color: brown;
+  padding: 10px;
+  margin:auto;
+  align-content: left;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+.container {
+  padding:50px;
+  background-color: tan;
+  color:black;
+  border-color: black;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  border-radius: 0px;
+}
+
+.container2 {
+  border-width: 5px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  border-color: brown;
+  padding: 10px;
+  margin:auto;
+  align-content: left;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+}
+.Bio {
+  font-size: x-small;
+  padding: 30px;
+  width:fit-content;
+  background-color: brown;
+  color: antiquewhite;
+  margin:auto;
+  align-content: left;
+
+}
+
+.deco {
+  background-color: black;
+  padding: 30px;
+  border-color: brown;
+  display: block;
+  margin: auto;
+  align-items: center;
+}
+
+.Bio {
+  font-size: x-small;
+  padding: 30px;
+  width:fit-content;
+  background-color: brown;
+  color: antiquewhite;
+  margin:auto;
+  align-content: left;
+}
+
+.title {background-color: brown;
+color:white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col-sm {width:25%;
+background-color: black;
+color: brown;
+}
+
+h1{
+font-family: 'Turret Road', cursive;
+background-color: brown;
+text-align: center;
+
+}
+
+h2 {font-size: larger;
+  font-family: 'Turret Road', cursive;}
+
+h3 {font-size: small;
+    font-family: 'Cedarville Cursive', cursive;
+  background-color: brown;
+  color:antiquewhite;
+  text-align: center;
+} 
+h5 {
+  border: 10px;
+  padding: 10px;
+  border-color: brown;
+  padding:color(brown);
+
+
+}
+table {width:fit-content;
+margin: auto;
+justify-items: center;}
+
+body {background-color: burlywood;
+color:blanchedalmond;
+font-family: 'Turret Road', cursive;}
+
+.titulo2 {
+background-color: black;
+color:brown;
+
+}
+.day .tiempo {
+  font-size: larger;
+  font-style: bold;
+  font-weight: 500;
+  background-color: brown;
+  padding: 50px;
+  margin: 50px;
+  border: 60px;
+  opacity: 40%;
+  font-family: 'Turret Road', cursive;}
+  
+.temperaturaF .temperaturaC {
+
+font-style: bold;
+font-family: 'Turret Road', cursive;
+font-size: larger;
+
+};
+
+.day .tiempo {
+font-size: larger;
+font-style: bold;
+font-weight: 500;
+background-color: brown;
+padding: 50px;
+margin: 50px;
+border: 60px;
+opacity: 40%;
+font-family: 'Turret Road', cursive;}
+
+.search-button:hover {
+  background-color: brown;
+  color: blanchedalmond;
+  font-size: 25px;
+  border-color: tan;
+  color: rgb(51, 37, 20);
+  background-color: rgba(237, 230, 99, 0.938);
+  border-radius: 2px;
+  text-decoration: bold 15px;
+}
+
+.search-button {
+  margin-right: 100px;
+  font-size: 16px;
+  background-color: rgb(51, 37, 20);
+  color: rgba(237, 230, 99, 0.938);
+  border: none;
+  padding: 20px;
+  line-height: 1px;
+  border-radius: 20px;
+}
+
+.search-button:hover {
+  background-color: brown;
+  color: blanchedalmond;
+  font-size: 25px;
+  border-color: tan;
+  color: rgb(51, 37, 20);
+  background-color: rgba(237, 230, 99, 0.938);
+  border-radius: 2px;
+  text-decoration: bold 15px;
+}
+
+.current-city {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  text-shadow: grey 5px;
+  color: rgb(51, 37, 20);
+  background-color: rgba(237, 230, 99, 0.938);
+  box-shadow: rgb(103, 88, 62);
+  text-shadow: grey, 5px;
+  margin-right: 20px;
+  border-radius: 2px;
+}
+
+.current-temperature {
+  font-size: 48px;
+  color: brown;
+  text-shadow: grey 5px;
+  background-color: tan;
+  border-color: brown;
+  border-width: 5px;
+  box-shadow: tan;
+  box-shadow: rgb(103, 88, 62), 5px;
+  text-shadow: grey, 5px;
+}
+
+.search-input {
+  background-color: blanchedalmond;
+  border: none;
+  color: grey;
+  font-size: 14px;
+  padding: 15px;
+  width: 75%;
+  border-radius: 10px;
+}
+
+a {
+  color: brown;
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px grey;
+}
+
+.current-details strong {
+  color: brown;
+}
+
+.current-details {
+  color: brown;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer {
+  border-top: 1px solid blanchedalmond;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Turret Road', cursive;
+  color: blanchedalmond;
+}
+
+main {
+  padding: 30px 0;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+header {
+  padding-bottom: 30px;
+  font-family: 'Turret Road', cursive;
+}
+
+.current-temperature {
+  font-size: 48px;
+  color: rgb(51, 37, 20);
+  background-color: rgba(237, 230, 99, 0.938);
+
+}
+
+.tail {
+  font-weight: light;
+  font-style: italic;
+  font-family: 'Turret Road', cursive;
+
+}
+
+.quote {
+  font-family: cursive;
+
+}
+
+body {
+  font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

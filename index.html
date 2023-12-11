@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Turret+Road:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Hedvig+Letters+Sans&family=Turret+Road:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My weather application</title>
+  </head>
+  <body>
+    <div style="title">
+      <h1 class="titulo">
+          💣💨Weather Underground💨💣
+      </h1>
+      <h3 style="quote">"You don't need a weatherman to know which way the weather blows" - Bob Dylan</h3>
+      
+      <img src="src/W_U_S.png" class="deco "width="200px">
+      </br>
+      
+      </div>
+    <div class="weather-app">
+      <header>
+        <form id="search-form">
+          <span class="search">
+          <label>Enter your city, state:</label>
+          <input
+            type="search"
+            placeholder="Enter a city, ST"
+            required
+            class="search-input"
+            id="search-input"
+          />
+          <input type="submit" value="Change City" class="search-button" />
+        </span>
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div class="today">
+            <h4 class="current-city" id="current-city">Paris</h4>
+            <p class="current-details">
+              <span id="current-date"></span>, <span id="current-description">moderate rain</span> <br />
+              Humidity: <strong id="current-humidity">87</strong>%,<br /> Wind: <strong id="current-wind">7.2</strong>km/h
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="current-temperature-icon">☀️</span
+            ><span class="current-temperature-value" id="current-temperature"
+              >24</span
+            ><span class="current-temperature-unit">°C</span>
+          </div>
+        </div>
+        <div class="container">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Temp</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"></th>
+                <td id="d1">Wed</td>
+                <td id="d2">Thur</td>
+                <td id="d3">Fri</td>
+                <td id="d4">Sat</td>
+                <td id="d5">Sun</td>
+                <td id="d6">Mon</td>
+                <td id="d7">Tues</td>
+              </tr> 
+              <tr>
+                <th scope="row">Hi/Low</th>
+                <td><span id="h1">88</span>°/<span id="l1">88</span>°</td>
+                <td><span id="h2">90</span>°/<span id="l2">88</span>°</td>
+                <td><span id="h3">23</span>°/<span id="l3">88</span>°</td>
+                <td><span id="h4">89</span>°/<span id="l4">88</span>°</td>
+                <td><span id="h5">78</span>°/<span id="l5">88</span>°</td>
+                <td><span id="h6">79</span>°/<span id="l6">88</span>°</td>
+                <td><span id="h7">80</span>°/<span id="l7">88</span>°</td>
+              </tr>
+              
+            </tbody>
+          </table>
+
+
+        </div>
+      </main>
+      <footer>
+        <p>
+          Coded by:
+          <a href="#" target="_blank">Cam Wood</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+  <script src="src/index.js"></script>
+</html>
